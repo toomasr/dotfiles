@@ -1,6 +1,8 @@
 " My VIM configuration file. It has been a mess from the early 2000s. Hopefully
 " with this bootstrap repository it will get better and better. Lets see!
 "
+" It assumes you've installed
+"   pathogen - https://github.com/tpope/vim-pathogen
 " set up pathogen, https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 filetype plugin indent on
